@@ -15,4 +15,4 @@ COPY . .
 
 RUN pip3 install -r requirements.txt
 
-ENTRYPOINT ["streamlit", "run", "dashboard_2013.py","--server.port=8510"]
+ENTRYPOINT ["streamlit", "run", "dashboard.py","--server.port=8510"]
